@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/imooc-shop.iml" filepath="$PROJECT_DIR$/.idea/imooc-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/onlineShop.iml" filepath="$PROJECT_DIR$/.idea/onlineShop.iml" />
     </modules>
   </component>
 </project>
