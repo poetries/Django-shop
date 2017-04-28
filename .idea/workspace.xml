@@ -2,7 +2,419 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238be830-29e9-46e7-934a-b4287bb49796" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/courses/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/operation/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/organization/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/migrations/0002_auto_20170316_0059.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/.tx/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/adminx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/layout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/de_DE/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/de_DE/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/de_DE/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/de_DE/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/en/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/en/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/en/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/en/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/es_MX/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/es_MX/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/es_MX/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/es_MX/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/eu/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/eu/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/eu/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/eu/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/id_ID/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/id_ID/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/id_ID/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/id_ID/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ja/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ja/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ja/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ja/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/lt/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/lt/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/lt/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/lt/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/nl_NL/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/nl_NL/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pl/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pl/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pt_BR/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ru_RU/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ru_RU/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/migrations/0002_log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/migrations/0003_auto_20160715_0100.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/actions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/aggregation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/ajax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/auth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/batch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/bookmark.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/chart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/comments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/details.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/editable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/export.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/inline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/language.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/layout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/mobile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/multiselect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/passwords.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/portal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/quickfilter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/quickform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/refresh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/relate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/relfield.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/sitemenu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/sortablelist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/themes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/topnav.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/wizard.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/plugins/xversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/sites.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/themes/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/themes/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/themes/bootstrap-xadmin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.page.dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.plugin.aggregation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.plugin.formset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.plugin.quickfilter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.plugins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.widget.editable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/css/xadmin.widget.select-transfer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.page.dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.page.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.page.list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.batch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.bookmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.editable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.formset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.portal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.quick-form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.quickfilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.refresh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.revision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.sortablelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.plugin.themes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.widget.datetime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.widget.multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.widget.select-transfer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/js/xadmin.widget.select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/autotype/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.aggregate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/load-image/load-image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/load-image/load-image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_pt-PT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2_locale_zh-hans.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/select2/select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.legacy.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/selectize/selectize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/snapjs/snap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/snapjs/snap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/static/xadmin/vendor/snapjs/snap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/password_reset/complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/password_reset/confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/password_reset/done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/password_reset/email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/password_reset/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/user/add_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/auth/user/change_password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/base_site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/comm.top.setlang.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/comm.top.theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/comm.top.topnav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/modal_list.left_navbar.quickfilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_form.before_fieldsets.wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_form.submit_line.wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.nav_form.search_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.nav_menu.bookmarks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.nav_menu.filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.results_bottom.actions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.results_top.charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.results_top.date_hierarchy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.top_toolbar.exports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.top_toolbar.layouts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.top_toolbar.refresh.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/blocks/model_list.top_toolbar.saveorder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/edit_inline/tabular.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/char.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/checklist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/fk_search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/number.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/quickfilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/filters/rel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/forms/transfer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/grids/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/box.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/sitemenu_accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/sitemenu_default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/submit_line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/toggle_back.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/includes/toggle_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/layout/field_value.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/layout/field_value_td.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/layout/fieldset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/layout/input_group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/layout/td-field.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/app_index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/batch_change_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/invalid_setup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/logged_out.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_delete_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_delete_selected_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_history.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/model_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/quick_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/quick_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/recover_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/recover_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/revision_diff.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/views/revision_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/widgets/addform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/widgets/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/widgets/chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/widgets/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templates/xadmin/widgets/qbutton.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/templatetags/xadmin_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/vendors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/dashboard.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/delete.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/detail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/edit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/form.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/views/website.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xadmin/widgets.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/onlineShop.iml" afterPath="$PROJECT_DIR$/.idea/onlineShop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlineShop/settings.py" afterPath="$PROJECT_DIR$/onlineShop/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlineShop/urls.py" afterPath="$PROJECT_DIR$/onlineShop/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlineShop/wsgi.py" afterPath="$PROJECT_DIR$/onlineShop/wsgi.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/users/__init__.py" afterPath="$PROJECT_DIR$/extra_apps/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/users/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/__init__.py" />
     </list>
     <ignored path="imooc-shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +445,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/users/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -43,8 +455,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onlineShop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="116">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -55,9 +467,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onlineShop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="189">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#699#731#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,9 +500,11 @@
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/apps/organization/models.py" />
         <option value="$PROJECT_DIR$/apps/courses/models.py" />
-        <option value="$PROJECT_DIR$/onlineShop/urls.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/onlineShop/wsgi.py" />
         <option value="$PROJECT_DIR$/onlineShop/settings.py" />
         <option value="$PROJECT_DIR$/apps/users/admin.py" />
+        <option value="$PROJECT_DIR$/onlineShop/urls.py" />
       </list>
     </option>
   </component>
@@ -104,6 +520,25 @@
     <option name="width" value="1320" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -111,7 +546,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -157,6 +592,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="onlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -175,13 +624,13 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\onlineShop" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\onlineShop\apps" />
       <recent name="F:\onlineShop" />
       <recent name="F:\onlineShop\extra_apps" />
-      <recent name="F:\onlineShop\apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\onlineShop" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.onlineShop">
@@ -511,26 +960,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27063492" sideWeight="0.49386504" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@onlineShop" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40860215" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7096774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48694316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6697389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2547619" sideWeight="0.506135" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39784947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39784947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@onlineShop" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40860215" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -572,7 +1021,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#699#731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +1055,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="e#699#731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -612,6 +1065,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,28 +1105,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/onlineShop - 副本/courses/models.py" />
-    <entry file="file://$PROJECT_DIR$/apps/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/mxonline/Lib/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/mxonline/Lib/site-packages/django/apps/registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -690,7 +1124,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#24#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,10 +1136,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/mxonline/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/mxonline/Lib/site-packages/django/apps/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/migrations/0002_auto_20170316_0059.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/onlineShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="116">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
@@ -714,17 +1206,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineShop/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onlineShop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#699#731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
