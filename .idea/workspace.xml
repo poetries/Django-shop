@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238be830-29e9-46e7-934a-b4287bb49796" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/403.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-comment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/course-video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/forgetpwd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-course.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-desc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-homepage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-detail-teachers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/org-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/password_reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/teacher-detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/teachers-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-course.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-org.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/usercenter-mycourse.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/__init__.py" afterPath="$PROJECT_DIR$/apps/courses/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/apps.py" afterPath="$PROJECT_DIR$/apps/courses/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/operation/__init__.py" afterPath="$PROJECT_DIR$/apps/operation/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/operation/apps.py" afterPath="$PROJECT_DIR$/apps/operation/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/__init__.py" afterPath="$PROJECT_DIR$/apps/organization/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/apps.py" afterPath="$PROJECT_DIR$/apps/organization/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/__init__.py" afterPath="$PROJECT_DIR$/apps/users/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/apps.py" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
     </list>
     <ignored path="imooc-shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +59,8 @@
       <file leaf-file-name="adminx.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="496">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#18#31#0" expanded="true" />
               </folding>
@@ -106,7 +122,6 @@
         <option value="$PROJECT_DIR$/apps/courses/adminx.py" />
         <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
         <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/apps/operation/apps.py" />
         <option value="$PROJECT_DIR$/apps/operation/__init__.py" />
         <option value="$PROJECT_DIR$/apps/users/apps.py" />
@@ -115,6 +130,7 @@
         <option value="$PROJECT_DIR$/apps/courses/__init__.py" />
         <option value="$PROJECT_DIR$/apps/organization/__init__.py" />
         <option value="$PROJECT_DIR$/apps/organization/apps.py" />
+        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
       </list>
     </option>
   </component>
@@ -192,38 +208,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -239,6 +223,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\onlineShop\static" />
+      <recent name="F:\onlineShop\templates" />
       <recent name="F:\onlineShop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -594,9 +580,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746032" sideWeight="0.49386504" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746032" sideWeight="0.49386504" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -974,8 +960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="496">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#18#31#0" expanded="true" />
           </folding>
