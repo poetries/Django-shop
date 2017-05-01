@@ -6,9 +6,10 @@ from django.db.models import Q
 from django.views.generic.base import View
 from django.http import HttpResponse, HttpResponsePermanentRedirect
 from django.core.urlresolvers import reverse
+from django.contrib.auth.hashers import make_password
 
 from .models import UserProfile
-from .forms import LoginForm
+from .forms import LoginForm, RegisterForm
 
 class CustomBackend(ModelBackend):
     def authenticate(self, username=None, password=None, **kwargs):
@@ -20,10 +21,28 @@ class CustomBackend(ModelBackend):
             return None
 
 
+# 用户注册
+class RegisterView(View):
+    def get(self, request):
+        register_form = RegisterForm()
+        return render(request, 'register.html', {'register_form': register_form})
+
+    def post(self, request):
+        register_form = RegisterForm(request.POST)
+        if register_form.is_valid():
+            user_name = request.POST.get('username', '')
+            pass_word = request.POST.get('password', '')
+            user_profile = UserProfile()
+            user_profile.username = user_name
+            user_profile.email = user_name
+            user_profile.password = make_password(pass_word)
+            user_profile.save()
+            
+
 # 用户登录
 class LoginView(View):
     def get(self, request):
-        return render(request, 'login.html')
+        return render(request, 'login.html', {})
 
     def post(self, request):
         login_form = LoginForm(request.POST)
