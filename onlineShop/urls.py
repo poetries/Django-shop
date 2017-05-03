@@ -21,7 +21,7 @@ from django.views.generic import TemplateView
 
 import xadmin
 
-from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
+from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView, LogoutView
 from organization.views import OrgView
 
 urlpatterns = [
@@ -39,8 +39,11 @@ urlpatterns = [
     url(r'^forget/$', ForgetPwdView.as_view(), name='forget_pwd'),
     url(r'^modify_pwd/$', ModifyPwdView.as_view(), name='modify_pwd'),
 
+    # 退出登录
+    url(r'^logout/$', LogoutView.as_view(), name='logout'),
+
     #课程机构相关 URL
-    url(r'^org_list/$', OrgView.as_view(), name='org_list')
+    url(r'^org_list/', OrgView.as_view(), name='org_list'),
 ]
 
 

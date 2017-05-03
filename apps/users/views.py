@@ -1,6 +1,6 @@
 # _*_ coding _*_
 from django.shortcuts import render
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.backends import ModelBackend
 from django.db.models import Q
 from django.views.generic.base import View
@@ -136,6 +136,13 @@ class ModifyPwdView(View):
             return render(request, 'login.html')
         else:
             return render(request, 'password_reset.html', {'email': email, 'modify_form': modify_form})
+
+
+# 用户登出
+class LogoutView(View):
+    def get(self, request):
+        logout(request)
+        return HttpResponsePermanentRedirect(reverse('index'))
 
 
 # Create your views here.  不用这种方式
