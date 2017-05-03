@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 """onlineShop URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -21,6 +22,7 @@ from django.views.generic import TemplateView
 import xadmin
 
 from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
+from organization.views import OrgView
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -36,4 +38,12 @@ urlpatterns = [
     url(r'^reset/(?P<active_code>.*)/$', ResetView.as_view(), name='reset_pwd'),
     url(r'^forget/$', ForgetPwdView.as_view(), name='forget_pwd'),
     url(r'^modify_pwd/$', ModifyPwdView.as_view(), name='modify_pwd'),
+
+    #课程机构相关 URL
+    url(r'^org_list/$', OrgView.as_view(), name='org_list')
 ]
+
+
+# 全局 404 页面配置（django 会自动调用这个变量）
+handler404 = 'users.views.page_not_found'
+handler500 = 'users.views.page_error'
