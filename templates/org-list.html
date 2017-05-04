@@ -20,13 +20,13 @@
 				<li>
 					<h2>机构类别</h2>
 					<div class="cont">
-                        <a href="?city="><span class="active2">全部</span></a>
+                        <a href="?city={{ city_id }}"><span class="{% ifequal category '' %}active2{% endifequal %}">全部</span></a>
 
-                            <a href="?ct=pxjg&city="><span class="">培训机构</span></a>
+                            <a href="?ct=pxjg&city={{ city_id }}"><span class="{% ifequal category 'pxjg' %}active2{% endifequal %}">培训机构</span></a>
 
-                            <a href="?ct=gx&city="><span class="">高校</span></a>
+                            <a href="?ct=gx&city={{ city_id }}"><span class="{% ifequal category 'gx' %}active2{% endifequal %}">高校</span></a>
 
-                            <a href="?ct=gr&city="><span class="">个人</span></a>
+                            <a href="?ct=gr&city={{ city_id }}"><span class="{% ifequal category 'gr' %}active2{% endifequal %}">个人</span></a>
 
 					</div>
 				</li>
@@ -34,9 +34,9 @@
 					<h2>所在地区</h2>
 					<div class="more">更多</div>
 					<div class="cont">
-                        <a href="?ct="><span class="active2">全部</span></a>
+                        <a href="?ct={{ category }}"><span class="{% ifequal city_id '' %}active2{% endifequal %}">全部</span></a>
                                 {% for city in all_citys %}
-                                    <a href="?city=1&ct="><span class="">{{ city.name }}</span></a>
+                                    <a href="?city={{ city.id }}&ct={{ category }}"><span class="{% ifequal city_id city.id|stringformat:"i" %}active2{% endifequal %}">{{ city.name }}</span></a>
                                 {% endfor %}
 					</div>
 				</li>
@@ -141,33 +141,15 @@
 		<div class="right companyrank layout">
 			<div class="head">授课机构排名</div>
 
-
-                <dl class="des">
-                    <dt class="num fl">1</dt>
+                {% for current_org in hot_orgs %}
+                 <dl class="des">
+                    <dt class="num fl">{{ forloop.counter }}</dt>
                     <dd>
-                        <a href="/company/2/"><h1>慕课网</h1></a>
-                        <p>北京市</p>
+                        <a href="/company/2/"><h1>{{ current_org.name }}</h1></a>
+                        <p>{{ current_org.address }}</p>
                     </dd>
                 </dl>
-
-                <dl class="des">
-                    <dt class="num fl">2</dt>
-                    <dd>
-                        <a href="/company/2/"><h1>慕课网2</h1></a>
-                        <p>深圳市</p>
-                    </dd>
-                </dl>
-
-                <dl class="des">
-                    <dt class="num fl">3</dt>
-                    <dd>
-                        <a href="/company/2/"><h1>北京大学</h1></a>
-                        <p>北京市</p>
-                    </dd>
-                </dl>
-
-
-
+                {% endfor %}
 
 		</div>
         </div>
