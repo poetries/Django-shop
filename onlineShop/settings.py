@@ -151,3 +151,8 @@ EMAIL_HOST_USER = "jingguanliuye@sina.com"
 EMAIL_HOST_PASSWORD = "admin123"
 EMAIL_TLS = False
 EMAIL_FROM = "jingguanliuye@sina.com"
+
+# 配置上传文件的存放路径
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
