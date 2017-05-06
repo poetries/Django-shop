@@ -23,7 +23,6 @@ from django.views.static import serve
 import xadmin
 
 from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView, LogoutView
-from organization.views import OrgView
 from onlineShop.settings import MEDIA_ROOT
 
 urlpatterns = [
@@ -44,11 +43,13 @@ urlpatterns = [
     # 退出登录
     url(r'^logout/$', LogoutView.as_view(), name='logout'),
 
-    #课程机构相关 URL
-    url(r'^org_list/', OrgView.as_view(), name='org_list'),
+    # 课程机构URL配置
+    url(r'^org/', include('organization.urls', namespace="org")),
 
     # 配置上传文件的访问处理函数
-    url(r'^media/(?P<path>.*)', serve, {"document_root": MEDIA_ROOT})
+    url(r'^media/(?P<path>.*)', serve, {"document_root": MEDIA_ROOT}),
+
+
 ]
 
 
