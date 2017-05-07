@@ -68,6 +68,7 @@ ScreenShot
 ![](static/screenshot/qt2.PNG)
 ![](static/screenshot/qt3.PNG)
 ![](static/screenshot/qt4.PNG)
+![](static/screenshot/qt5.PNG)
 
 
 - 后台
