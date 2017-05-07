@@ -2798,7 +2798,6 @@ footer .footer .line {
     height: 320px;
     margin: 3px;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .list .group_list .box a {
@@ -4083,7 +4082,7 @@ footer .footer .line {
 }
 
 .personal_list .left li:last-child {
-    /*border: 0;*/
+    border: 0;
 }
 
 .personal_list .left li:hover, .personal_list .left .active2 {
