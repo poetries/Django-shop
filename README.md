@@ -64,15 +64,15 @@ ScreenShot
 - 前台
 
 
-![](static/screenshot/qt1.png)
-![](static/screenshot/qt2.png)
-![](static/screenshot/qt3.png)
-![](static/screenshot/qt4.png)
+![](static/screenshot/qt1.PNG)
+![](static/screenshot/qt2.PNG)
+![](static/screenshot/qt3.PNG)
+![](static/screenshot/qt4.PNG)
 
 
 - 后台
 
-![](static/screenshot/houtai.png)
+![](static/screenshot/houtai.PNG)
 
 
 演示
