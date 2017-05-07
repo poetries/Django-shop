@@ -12,4 +12,6 @@ urlpatterns = [
 
     # 课程info
     url(r'^info/(?P<course_id>\d+)/$', CourseInfoView.as_view(), name='course_info'),
+
+
 ]
