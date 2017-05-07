@@ -35,7 +35,7 @@
     </section>
 {% endblock %}
 
-{% block custom_content %}
+{% block content %}
   <div id="main">
 
   <div style="width:950px;height:675px; margin-left: 340px">
@@ -62,7 +62,7 @@
           </div>
 
           <div class="mod-chapters">
-            {#     章节信息       #}
+
             {% for lesson in course.get_course_lesson %}
               <div class="chapter chapter-active">
               <h3>
@@ -87,7 +87,7 @@
 
             <div class="box mb40">
               <h4>资料下载</h4>
-            {#  资料下载   #}
+
               <ul class="downlist">
                 {% for course_resource in all_resources %}
                 <li>
