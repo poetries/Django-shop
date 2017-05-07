@@ -23,8 +23,8 @@
 **第一步：配置数据库**
 
 - 确保你已经安装了 `MySQL`
-- 在`settings.py` 里填入你服务器的数据库信息
-- 创建数据表 `make migrate`
+- 在`settings.py` 里填入你的数据库信息
+- 生成数据表（打开pycharm，Tools->Run manage.py Task,然后依次输入 `makemigrations` `migrate`生成数据表到数据库中）
 
 ```
 DATABASES = {
@@ -41,8 +41,41 @@ DATABASES = {
 **第二步：安装相应的包**
 
 ```
-pip install django six 
+distribute (0.7.3)
+Django (1.9)
+django-crispy-forms (1.6.1)
+django-formtools (2.0)
+django-pure-pagination (0.3.0)
+django-reversion (2.0.8)
+django-simple-captcha (0.4.6)
+httplib2 (0.9.2)
+mysqlclient (1.3.10)
+olefile (0.44)
+Pillow (4.0.0)
+pip (9.0.1)
+setuptools (28.8.0)
+six (1.10.0)
+wheel (0.29.0)
 ```
 
-Todo
+ScreenShot
 ---
+
+- 前台
+
+
+![](static/screenshot/qt1.png)
+![](static/screenshot/qt2.png)
+![](static/screenshot/qt3.png)
+![](static/screenshot/qt4.png)
+
+
+- 后台
+
+![](static/screenshot/houtai.png)
+
+
+演示
+---
+
+
