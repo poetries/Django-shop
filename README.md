@@ -74,6 +74,7 @@ ScreenShot
 - 后台
 
 ![](static/screenshot/houtai.PNG)
+![](static/screenshot/houtai2.PNG)
 
 
 演示
