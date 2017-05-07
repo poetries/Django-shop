@@ -5,7 +5,7 @@ from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
 
 from .models import Course, CourseResource
-from operation.models import UserFavorite, CourseComments
+from operation.models import UserFavorite, CourseComments, UserCourse
 
 # Create your views here.
 
@@ -79,11 +79,22 @@ class CourseDetailView(View):
 class CourseInfoView(View):
     def get(self, request, course_id):
         course = Course.objects.get(id=int(course_id))
+        user_courses = UserCourse.objects.filter(course=course)
+        user_ids = [user_course.user.id for user_course in user_courses]
+        all_user_courses = UserCourse.objects.filter(user_id__in=user_ids)
+
+        #取出所有课程ID
+        course_ids = [user_course.course.id for user_course in user_courses]
+
+        #获取学过该用户学过的其他所有课程
+        relate_courses = Course.objects.filter(id__in=course_ids).order_by("-click_nums")[:5]
+
         all_resources = CourseResource.objects.filter(course=course)
 
         return render(request, 'course-video.html', {
             'course': course,
             'course_resources': all_resources,
+            'relate_courses': relate_courses
         })
 
 
@@ -92,12 +103,12 @@ class CommentsView(View):
     def get(self, request, course_id):
         course = Course.objects.get(id=int(course_id))
         all_resources = CourseResource.objects.filter(course=course)
-        all_comment = CourseComments.objects.all()
+        all_comments = CourseComments.objects.all()
 
         return render(request, 'course-comment.html', {
             'course': course,
             'course_resources': all_resources,
-            'all_comment': all_comment,
+            'all_comments': all_comments,
         })
 
 

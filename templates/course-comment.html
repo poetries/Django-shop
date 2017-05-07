@@ -74,186 +74,22 @@
                     </div>
                     <div id="course_note">
                         <ul class="mod-post" id="comment-list">
-
-                            <li class="post-row">
+                            {% for user_comments in all_comments %}
+                              <li class="post-row">
                                 <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
+                                    <span target="_blank"><img src='{{ MEDIA_URL }}{{ user_comments.user.image }}' width='40' height='40' /></span>
                                 </div>
                                 <div class="bd">
                                     <div class="tit">
-                                        <span target="_blank">bobby</span>
+                                        <span target="_blank">{{ user_comments.user.username }}</span>
                                     </div>
-                                    <p class="cnt">看到第三章了，虽然有些知识还不是听得很懂，但是感觉很有用的样子，想的是先听完一遍再说。然后再来听第二遍。最后想说老师棒棒哒！！！</p>
+                                    <p class="cnt">{{ user_comments.comments }}</p>
                                     <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月13日 22:14</span>
+                                        <span title="创建时间" class="l timeago">时间：{{ user_comments.add_time }}</span>
                                     </div>
                                 </div>
                             </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">老师您讲的很好，很期待下次的课程。我有个小问题，jedi我用git clone 和 apt-get 都装上了，:help jedi-vim ,提示我E149: 抱歉，没有 jedi-vim 的说明，补全也不能用，有点搞不清楚了。我安装vim插件python-mode也不能用...</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月13日 22:13</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">你好。我在看7.3节 关于使用上下文管理的那个例子。关于telnetlib库使用的一些问题。 Telnet.read_until(expected, timeout=None) ;使用这个方法容易卡在输入登陆用户名的位置就不执行了。假如telnet到目标主机，如果提示符不是login ，就无法登陆吗？</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月13日 22:13</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">精品，老早就听医生的课了，这次的课程又让我长见识了，就像别的同学说的那样，如此简洁的实现酷炫动画的方式让我激动，赶快学完视频内容好去实现那10个任务，到时候希望徐大神好好指导指导我，如果学完后能给我个行业推荐啥的就更好了，明年就开始实习了！老紧张了--</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月13日 22:12</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">测试一下</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月13日 22:11</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">好</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月8日 22:07</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">好</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月8日 22:07</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">好</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年12月8日 22:06</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">再来一次</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年11月5日 23:18</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">good </p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年11月5日 23:18</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">讲的很不错</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年11月5日 23:13</span>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="post-row">
-                                <div class="media">
-                                    <span target="_blank"><img src='/static/media/image/2016/12/default_big_14.png' width='40' height='40' /></span>
-                                </div>
-                                <div class="bd">
-                                    <div class="tit">
-                                        <span target="_blank">bobby</span>
-                                    </div>
-                                    <p class="cnt">给问问</p>
-                                    <div class="footer clearfix">
-                                        <span title="创建时间" class="l timeago">时间：2016年11月5日 23:09</span>
-                                    </div>
-                                </div>
-                            </li>
+                            {% endfor %}
 
                         </ul>
                     </div>
@@ -372,8 +208,8 @@ $('#js-pl-submit').on('click', function () {
     $.ajax({
         cache: false,
         type: "POST",
-        url: "{% url 'courses:add_comment' %}",
-        data: {course_id: {{ course.id }}, comments: comments},
+        url: "{% url 'course:add_comment' %}",
+        data: {'course_id': {{ course.id }}, 'comments': comments},
         async: true,
         beforeSend: function (xhr, settings) {
             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
