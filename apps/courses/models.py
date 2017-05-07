@@ -87,3 +87,18 @@ class CourseResource(models.Model):
     class Meta:
         verbose_name = u"课程资源"
         verbose_name_plural = verbose_name
+
+
+class Video(models.Model):
+    lesson = models.ForeignKey(Lesson, verbose_name='章节')
+    name = models.CharField(max_length=100, verbose_name='视频名')
+    url = models.URLField(max_length=200, verbose_name='访问地址', default='www.baidu.com')
+    learn_times = models.IntegerField(default=0, verbose_name='视频时长(分钟数)')
+    add_time = models.DateTimeField(default=datetime.now, verbose_name='添加时间')
+
+    class Meta:
+        verbose_name = '视频'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.name
