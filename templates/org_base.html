@@ -58,7 +58,7 @@
             <img class="fl" style="width: 112px;height: 103px" src="{{ MEDIA_URL }}{{ course_org.image }}"/>
             <div class="head fl">
                 <h1>
-                    慕课网
+                    {{ course_org.name }}
                     <img src="{% static 'images/authentication.png'%}"/>
                     <img src="{% static 'images/gold.png' %}"/>
                 </h1>
@@ -76,13 +76,13 @@
         </div>
     </div>
 			</div>
-    </header>
+ </header>
 </section>
 <section>
 	<div class="wp">
 		<ul  class="crumbs">
-            <li><a href="{% url 'index' %}">首页</a>></li>
-			<li><a href="{% url 'org:org_list' %}">课程机构</a>></li>
+            <li><a href="{% url 'index' %}">首页</a></li>
+			<li><a href="{% url 'org:org_list' %}">课程机构</a></li>
 			<li>{% block page_path %}机构首页{% endblock %}</li>
 		</ul>
 	</div>

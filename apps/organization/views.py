@@ -50,7 +50,7 @@ class OrgView(View):
 
         # Provide Paginator with the request object for complete querystring generation
 
-        p = Paginator(all_orgs, 5, request=request)
+        p = Paginator(all_orgs, 4, request=request)
 
         orgs = p.page(page)
 
