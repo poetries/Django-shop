@@ -131,8 +131,8 @@
                                     {% for relate_course in relate_courses %}
                                     <li class="curr">
                                         <a href="{% url 'course:course_detail' relate_course.id%}" target="_blank">
-                                            <img src="{{ MEDIA_URL }}{{ relate_course.image }}" alt="">
-                                            <span class="name autowrap">django与vuejs实战项目2</span>
+                                            <img src="{{ MEDIA_URL }}{{ relate_course.image }}" alt="{{ relate_course.name }}">
+                                            <span class="name autowrap">{{ relate_course.name }}</span>
                                         </a>
                                     </li>
                                     {% endfor %}
