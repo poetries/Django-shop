@@ -160,7 +160,7 @@ class AddFavView(View):
             return HttpResponse('{"status": "fail", "msg": "用户未登录"}', content_type='application/json')
         exist_records = UserFavorite.objects.filter(user=request.user, fav_id=int(fav_id), fav_type=int(fav_type))
         if exist_records:
-            # 如果记录已经存在 表示用户曲线收藏
+            # 如果记录已经存在 表示用户取消收藏
             exist_records.delete()
             return HttpResponse('{"status": "success", "msg": "收藏"}', content_type='application/json')
         else:
