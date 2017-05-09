@@ -11,7 +11,7 @@ from django.contrib.auth.hashers import make_password
 from .models import UserProfile, EmailVerifyRecord
 from .forms import LoginForm, RegisterForm, ForgetForm, ModifyPwdForm
 from utils.email_send import send_register_email
-
+from utils.mixin_utils import LoginRequiredMixin
 
 class CustomBackend(ModelBackend):
     def authenticate(self, username=None, password=None, **kwargs):
@@ -145,17 +145,9 @@ class LogoutView(View):
         return HttpResponsePermanentRedirect(reverse('index'))
 
 
-# Create your views here.  不用这种方式
+# 用户个人信息
+class UserInfoView(LoginRequiredMixin, View):
+    def get(self, request):
+        return render(request, 'usercenter-info.html', {
 
-# def user_login(request):
-#     if request.method == 'POST':
-#         user_name = request.POST.get("username", "")
-#         pass_word = request.POST.get("password", "")
-#         user = authenticate(username=user_name, password=pass_word)
-#         if user is not None:
-#             login(request, user)
-#             return render(request, "index.html")
-#         else:
-#             return render(request, "login.html", {"msg": "用戶名或密码错误!"})
-#     elif request.method == "GET":
-#         return render(request, "login.html", {})
+        })
