@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="238be830-29e9-46e7-934a-b4287bb49796" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlineShop/settings.py" afterPath="$PROJECT_DIR$/onlineShop/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlineShop/urls.py" afterPath="$PROJECT_DIR$/onlineShop/urls.py" />
-    </list>
+    <list default="true" id="238be830-29e9-46e7-934a-b4287bb49796" name="Default" comment="" />
     <ignored path="imooc-shop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -689,7 +685,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20873016" sideWeight="0.49386504" order="0" side_tool="false" content_ui="combo" />
