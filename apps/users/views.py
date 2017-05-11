@@ -4,7 +4,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.backends import ModelBackend
 from django.db.models import Q
 from django.views.generic.base import View
-from django.http import HttpResponse, HttpResponsePermanentRedirect
+from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.contrib.auth.hashers import make_password
 
@@ -73,7 +73,7 @@ class LoginView(View):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return HttpResponsePermanentRedirect(reverse('index'))
+                    return HttpResponseRedirect(reverse('index'))
                 else:
                     return render(request, 'login.html', {'msg': '用户未激活！'})
             else:
@@ -150,7 +150,7 @@ class ModifyPwdView(View):
 class LogoutView(View):
     def get(self, request):
         logout(request)
-        return HttpResponsePermanentRedirect(reverse('index'))
+        return HttpResponseRedirect(reverse('index'))
 
 
 # userprofile
@@ -338,7 +338,7 @@ class IndexView(View):
     def get(self, request):
         # 取出轮播图
         all_banners = Banner.objects.all().order_by('index')
-        courses = Course.objects.filter(is_banner=False)[:6]
+        courses = Course.objects.filter(is_banner=False)[:5]
         banner_courses = Course.objects.filter(is_banner=True)[:3]
         course_orgs = CourseOrg.objects.all()[:15]
         return render(request, 'index.html', {
