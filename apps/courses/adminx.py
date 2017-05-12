@@ -46,7 +46,7 @@ class CourseAdmin(object):
 
 class BannerCourseAdmin(object):
     list_display = ['name', 'desc', 'detail', 'degree', 'learn_times', 'students', 'fav_nums',
-                    'click_nums', 'add_time']
+                    'click_n0=ums', 'add_time']
     search_fields = ['name', 'desc', 'detail', 'degree', 'learn_times', 'students', 'fav_nums',
                     'click_nums']
     list_filter = ['name', 'desc', 'detail', 'degree', 'learn_times', 'students', 'fav_nums',
