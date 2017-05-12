@@ -6,7 +6,7 @@ class CityDictAdmin(object):
     list_display = ['name', 'desc', 'add_time']
     search_fields = ['name', 'desc']
     list_filter = ['name', 'desc', 'add_time']
-
+    model_icon = 'fa fa-telegram'
 
 class CourseOrgAdmin(object):
     list_display = ['name', 'desc', 'click_nums', 'fav_nums', 'image', 'address', 'city', 'add_time']
