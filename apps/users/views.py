@@ -1,4 +1,4 @@
-# _*_ coding _*_
+# _*_ coding:utf-8 _*_
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.backends import ModelBackend
