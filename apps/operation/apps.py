@@ -1,4 +1,4 @@
-# _*_ coding _*_
+# _*_ coding:utf-8 _*_
 from django.apps import AppConfig
 
 
