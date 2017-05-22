@@ -1,0 +1,37 @@
+kele_mysql:
+  restart: always
+  image: mysql:5.6
+  volumes:
+    - ./data/mysql:/var/lib/mysql
+    - ./conf/mysql/:/etc/mysql/conf.d
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_DATABASE=mxonline
+    - MYSQL_ROOT_PASSWORD=123456
+
+kele_nginx:
+  restart: always
+  image: nginx
+  ports:
+    - "80:80"
+  volumes:
+    - ./conf/nginx/mx_nginx.conf:/etc/nginx/conf.d/mx_nginx.conf
+  volumes_from:
+    - kele_imooc
+  links:
+    - kele_imooc:web
+
+kele_imooc:
+  restart: always
+  build: .
+  ports:
+    - "8000:8000"
+  volumes:
+    - .:/onlineShop
+  links:
+    - kele_mysql:mysql
+  command: uwsgi -s :8000 -w onlineShop.wsgi -p 3
+
+
+
