@@ -31,7 +31,7 @@ yum install -y python-pip
 pip install -U docker-compose
 
 # Win/ Mac 用户从这里开始执行
-git clone https://github.com/zaxlct/MxOnline_Django.git
+git clone https://github.com/poetries/Django-shop.git
 cd MxOnline_Django
 # 查看 docker-compose 是否已安装
 docker-compose -v
